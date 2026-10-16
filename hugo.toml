@@ -15,6 +15,43 @@ defaultContentLanguageInSubdir = false # Vietnamese in root /, English in /en/
     [languages.vi.params]
       description = 'Mô tả blog bằng tiếng Việt'
 
+    [languages.vi.menu]
+      [[languages.vi.menu.main]]
+        identifier = "math"
+        name = "Toán học"
+        url = "categories/toán-học/"
+        weight = 10
+
+      [[languages.vi.menu.main]]
+        identifier = "programming"
+        name = "Lập trình"
+        url = "categories/lập-trình/"
+        weight = 20
+
+      [[languages.vi.menu.main]]
+        identifier = "life"
+        name = "Cuộc sống"
+        url = "categories/cuộc-sống/"
+        weight = 30
+
+      [[languages.vi.menu.main]]
+        identifier = "posts"
+        name = "Tất cả bài viết"
+        url = "posts/"
+        weight = 40
+
+      [[languages.vi.menu.main]]
+        identifier = "categories"
+        name = "Chủ đề"
+        url = "categories/"
+        weight = 50
+
+      [[languages.vi.menu.main]]
+        identifier = "tags"
+        name = "Thẻ"
+        url = "tags/"
+        weight = 60
+
   [languages.en]
     languageCode = 'en-us'
     languageName = 'English'
@@ -22,3 +59,34 @@ defaultContentLanguageInSubdir = false # Vietnamese in root /, English in /en/
     title = 'My Personal Blog'
     [languages.en.params]
       description = 'Blog description in English'
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "posts/"
+        weight = 10
+
+      [[languages.en.menu.main]]
+        identifier = "categories"
+        name = "Categories"
+        url = "categories/"
+        weight = 20
+
+      [[languages.en.menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "tags/"
+        weight = 30
+
+[params]
+  math = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
