@@ -1,0 +1,26 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'My New Hugo Project'
+theme = 'PaperMod'
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false # English in root /, Vietnamese in /en/
+
+[languages]
+  [languages.en]
+    languageCode = 'en-us'
+    languageName = 'English'
+    weight = 2
+    title = 'My Personal Blog'
+    [languages.en.params]
+      description = 'Blog description in English'
+  
+  [languages.vi]
+    languageCode = 'vi-vn'
+    languageName = 'Tiếng Việt'
+    weight = 1
+    title = 'Blog của tôi'
+    [languages.vi.params]
+      description = 'Mô tả blog bằng tiếng Việt'
+
+  
