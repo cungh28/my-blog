@@ -21,46 +21,61 @@ defaultContentLanguageInSubdir = false # Vietnamese in root /, English in /en/
 
     [languages.vi.menu]
       [[languages.vi.menu.main]]
+        identifier = "science"
+        name = "Khoa học"
+        url = "#"
+        weight = 10
+
+      [[languages.vi.menu.main]]
         identifier = "math"
         name = "Toán học"
+        parent = "science"
         url = "categories/toán-học/"
         weight = 10
 
       [[languages.vi.menu.main]]
+        identifier = "physics"
+        name = "Vật lý"
+        parent = "science"
+        url = "categories/vật-lý/"
+        weight = 20
+
+      [[languages.vi.menu.main]]
         identifier = "programming"
         name = "Lập trình"
+        parent = "science"
         url = "categories/lập-trình/"
-        weight = 20
+        weight = 30
 
       [[languages.vi.menu.main]]
         identifier = "life"
         name = "Cuộc sống"
         url = "categories/cuộc-sống/"
-        weight = 30
+        weight = 20
 
       [[languages.vi.menu.main]]
         identifier = "posts"
         name = "Tất cả bài viết"
         url = "posts/"
-        weight = 40
+        weight = 30
 
       [[languages.vi.menu.main]]
         identifier = "categories"
         name = "Chủ đề"
         url = "categories/"
-        weight = 50
+        weight = 40
 
       [[languages.vi.menu.main]]
         identifier = "tags"
         name = "Thẻ"
         url = "tags/"
-        weight = 60
+        weight = 50
 
       [[languages.vi.menu.main]]
         identifier = "about"
         name = "Giới thiệu"
         url = "about/"
-        weight = 70
+        weight = 60
 
   [languages.en]
     languageCode = 'en-us'
@@ -72,28 +87,61 @@ defaultContentLanguageInSubdir = false # Vietnamese in root /, English in /en/
 
     [languages.en.menu]
       [[languages.en.menu.main]]
+        identifier = "science"
+        name = "Science"
+        url = "#"
+        weight = 10
+
+      [[languages.en.menu.main]]
+        identifier = "math"
+        name = "Mathematics"
+        parent = "science"
+        url = "categories/mathematics/"
+        weight = 10
+
+      [[languages.en.menu.main]]
+        identifier = "physics"
+        name = "Physics"
+        parent = "science"
+        url = "categories/physics/"
+        weight = 20
+
+      [[languages.en.menu.main]]
+        identifier = "programming"
+        name = "Programming"
+        parent = "science"
+        url = "categories/programming/"
+        weight = 30
+
+      [[languages.en.menu.main]]
+        identifier = "life"
+        name = "Life"
+        url = "categories/life/"
+        weight = 20
+
+      [[languages.en.menu.main]]
         identifier = "posts"
         name = "Posts"
         url = "posts/"
-        weight = 10
+        weight = 30
 
       [[languages.en.menu.main]]
         identifier = "categories"
         name = "Categories"
         url = "categories/"
-        weight = 20
+        weight = 40
 
       [[languages.en.menu.main]]
         identifier = "tags"
         name = "Tags"
         url = "tags/"
-        weight = 30
+        weight = 50
 
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
         url = "about/"
-        weight = 40
+        weight = 60
 
 [params]
   author = "Cung Huỳnh"

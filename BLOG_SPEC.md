@@ -31,6 +31,7 @@ Blog áp dụng kiến trúc **Leaf Bundle** chuẩn mực của Hugo để qu�
   - Các tài nguyên dùng riêng cho bài viết: Hình ảnh (`cover.jpg`, `diagram.png`), file đính kèm... nằm trực tiếp cùng thư mục, cho phép chèn bằng đường dẫn tương đối `![Mô tả](diagram.png)`.
 - **Cấu trúc phân cấp tổng thể:**
   - Bài viết toán học: `content/posts/math/<ten-chu-de>/<01-post-folder>/`
+  - Bài viết vật lý: `content/posts/physics/<01-post-folder>/`
   - Bài viết lập trình: `content/posts/programming/<ngon-ngu-hoac-chu-de>/<01-post-folder>/`
   - Bài viết cuộc sống: `content/posts/life/<01-post-folder>/`
   - Trang mục lục chuyên mục: Sử dụng `_index.vi.md` và `_index.en.md` tại thư mục cha.
