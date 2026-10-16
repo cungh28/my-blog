@@ -95,6 +95,19 @@ defaultContentLanguageInSubdir = false # Vietnamese in root /, English in /en/
   author = "Cung Huỳnh"
   math = true
 
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:cung.h28@gmail.com"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/cungh28/"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/cungh28"
+
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions]

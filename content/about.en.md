@@ -3,19 +3,19 @@ title = "About Me"
 date = '2026-10-16T10:00:00+07:00'
 draft = false
 hideMeta = true
-description = "A brief introduction to Cung Huynh — navigating the intersections of Mathematics, Software Engineering, and Life."
-summary = "About Cung Huynh, areas of interest, research passions, and personal philosophy."
+description = "A brief introduction to Cung — exploring the intersections of Mathematics, Software Engineering, Physics, and Life."
+summary = "About Cung, areas of interest, study journey, and personal reflections."
 +++
 
-Hello and welcome! I am **Cung Huynh**. Thank you for stopping by my corner of the Internet.
+Hello and welcome! I am **Cung**. Thank you for stopping by my corner of the Internet.
 
 ---
 
 ## 1. Who am I?
 
-I am a software engineer and applied mathematics enthusiast.
+I am currently an Information Technology student.
 
-To me, programming is not merely about writing instructions for machines; it is the craft of materializing abstract reasoning into resilient, efficient, and impactful tools.
+To me, programming is not merely about writing code for machines; it is the craft of materializing abstract reasoning into resilient, efficient, and impactful tools.
 
 ---
 
@@ -24,25 +24,28 @@ To me, programming is not merely about writing instructions for machines; it is 
 ### 📐 Mathematics & Information Theory
 - **Group Testing (Pooled Testing):** Probabilistic models, disjunct matrices, combinatorial constructions, fast decoding algorithms (COMP, SCOMP, DD), and noise-resilient architectures.
 - **Information Theory & Coding:** Shannon limits, error-correcting codes, and connections to compressed sensing.
-- **Combinatorial Optimization & Graph Algorithms.**
+- **General & foundational mathematics.**
 
-### 💻 Computer Science & Systems
+### 💻 Computer Science & Technology
 - **Modern C++ (C++11 through C++20/23):** High-performance systems programming, RAII resource management, move semantics, template metaprogramming & concepts, concurrency, and lock-free data structures.
-- **Hardware-Aware Software Design:** CPU cache locality, zero-cost abstractions, compiler optimizations (RVO/constexpr).
+- **Hardware-Aware Design:** CPU cache locality, zero-cost abstractions, large-scale data streams.
+
+### ⚛️ Physics
+- General and introductory physics.
 
 ### 🌿 Beyond the Screen
-- **Physical Books:** Deep reading in Stoic philosophy, timeless literature, and history.
-- **Slow Living:** Crafting manual pour-over coffee (V60) and preserving early morning quietude.
-- **Endurance:** Long-distance running — cultivating mental discipline and honest self-dialogue.
+- Sharing everyday reflections and journey in life.
+- Reviews of useful tools, books, and places.
+- Thoughts, perspectives, and lifestyle.
 
 ---
 
 ## 3. About this Blog
 
-This digital space serves three purposes:
-1. **Learning in Public:** The most rigorous way to master mathematical proofs and systems concepts is to teach them clearly.
-2. **Sharing Insights:** Providing comprehensive, structured resources for peers and curious minds.
-3. **Reflections on Life:** Grounding logic with humanistic appreciation for everyday moments.
+This blog serves as a digital garden to share knowledge, express personal thoughts, and practice writing with 3 main goals:
+1. **Learning in Public:** The most rigorous way to master mathematical proofs and systems concepts is to articulate them clearly.
+2. **Sharing Value:** Providing helpful insights for fellow students and peers.
+3. **Preserving Memories:** A space to slow down, reflect on life, and cherish simple yet essential moments.
 
 ---
 
@@ -50,5 +53,9 @@ This digital space serves three purposes:
 
 I am always delighted to exchange thoughts on technical ideas or simply say hello:
 
+- **Email:** [cung.h28@gmail.com](mailto:cung.h28@gmail.com)
+- **LinkedIn:** [cungh28](https://www.linkedin.com/in/cungh28/)
 - **GitHub:** [@cungh28](https://github.com/cungh28)
 - **Website:** [blog.cunghuynh.id.vn](https://blog.cunghuynh.id.vn)
+
+*Thank you for taking the time to visit!*
