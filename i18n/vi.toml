@@ -3,3 +3,6 @@ other = "Đọc tiếp"
 
 [minute_read]
 other = "phút đọc"
+
+[last_mod]
+other = "Cập nhật:"

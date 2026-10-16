@@ -3,6 +3,11 @@ locale = 'en-us'
 title = "Cung's Blog"
 theme = 'PaperMod'
 
+enableGitInfo = true
+
+[frontmatter]
+  lastmod = [':git', 'lastmod', 'date', 'publishDate']
+
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false # Vietnamese in root /, English in /en/
 
@@ -94,6 +99,7 @@ defaultContentLanguageInSubdir = false # Vietnamese in root /, English in /en/
 [params]
   author = "Cung Huỳnh"
   math = true
+  ShowLastMod = true
 
   [[params.socialIcons]]
     name = "email"

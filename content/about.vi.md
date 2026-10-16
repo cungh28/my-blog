@@ -2,8 +2,8 @@
 title = "Về Tác Giả"
 date = '2026-10-16T10:00:00+07:00'
 draft = false
-hideMeta = true
-description = "Đôi nét về Cung — hành trình giữa Toán học, Kỹ thuật phần mềm và cuộc sống."
+hideMeta = false
+# description = "Đôi nét về Cung — hành trình giữa Toán học, Kỹ thuật phần mềm và cuộc sống."
 summary = "Giới thiệu bản thân, những lĩnh vực quan tâm và tâm sự về cuộc sống của Cung."
 +++
 
@@ -17,22 +17,33 @@ Mình hiện đang là một sinh viên công nghệ thông tin.
 
 ---
 
-## 2. Những lĩnh vực mình đam mê
+## 2. Nội dung của blog
 
-### 📐 Toán học & Lý thuyết thông tin
-- **Group Testing (Kiểm thử nhóm / Xét nghiệm gộp):** Các mô hình xác suất, cấu trúc đại số ma trận Disjunct, thuật toán giải mã COMP, SCOMP và các bài toán chịu lỗi trong sinh học và mạng máy tính.
-- **Lý thuyết thông tin & Mã hóa:** Giới hạn Shannon, mã sửa sai (Error-Correcting Codes), nén cảm nhận (Compressed Sensing).
-- **Toán phổ thông và đại cương.**
+### Toán học & Lý thuyết thông tin
+- Group Testing (Kiểm thử nhóm).
+- Lý thuyết thông tin & Mã hóa.
+- Toán phổ thông.
+- Toán đại cương.
+- Toán thường thức.
 
-### 💻 Khoa học máy tính & Công nghệ
-- **Modern C++ (C++11/20/23):** Lập trình hệ thống hiệu năng cao, cơ chế quản lý bộ nhớ RAII, Move Semantics, Template Metaprogramming & Concepts, xử lý đa luồng và lập trình phi khóa (Lock-free).
-- **Kiến trúc hệ thống:** Tối ưu hóa bộ nhớ đệm CPU (Cache Locality), Zero-cost Abstractions, xử lý dữ liệu quy mô lớn (Data Streams).
+### Khoa học máy tính & Công nghệ
+- Lập trình C++ cơ bản và nâng cao.
+- Lập trình C# cơ bản và nâng cao
+- Lập trình Java cơ bản và nâng cao.
+- Hệ điều hành.
+- Mạng máy tính.
+- Cấu trúc dữ liệu & Giải thuật.
+- Machine Learning.
+- Kiến trúc hệ thống.
+- Internet vạn vật (IoT).
 
-### ⚛️ Vật lý
-- Chủ yếu sẽ về vật lý phổ thông + vật lý đại cương.
 
-### 🌿 Bên ngoài màn hình máy tính
-- Chia sẻ hành trình trong cuộc sống.
+### Vật lý
+- Vật lý phổ thông.
+- Vật lý đại cương.
+
+### Tâm sự cuộc sống
+- Chia sẻ hành trình trong cuộc sống, làm việc và học tập.
 - Review các địa điểm, đồ dùng, công cụ hữu ích.
 - Chia sẻ quan điểm sống, tin tức,...
 

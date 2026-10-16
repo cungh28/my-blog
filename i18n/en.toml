@@ -3,3 +3,6 @@ other = "Read more"
 
 [minute_read]
 other = "min read"
+
+[last_mod]
+other = "Updated:"

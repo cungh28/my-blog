@@ -2,9 +2,9 @@
 title = "About Me"
 date = '2026-10-16T10:00:00+07:00'
 draft = false
-hideMeta = true
-description = "A brief introduction to Cung — exploring the intersections of Mathematics, Software Engineering, Physics, and Life."
-summary = "About Cung, areas of interest, study journey, and personal reflections."
+hideMeta = false
+description = "A brief introduction to Cung — exploring the intersections of Mathematics, Computer Science, Physics, and Life."
+summary = "About Cung, blog roadmap, areas of interest, study journey, and personal reflections."
 +++
 
 Hello and welcome! I am **Cung**. Thank you for stopping by my corner of the Internet.
@@ -19,23 +19,33 @@ To me, programming is not merely about writing code for machines; it is the craf
 
 ---
 
-## 2. Areas of Interest
+## 2. Blog Contents & Roadmap
 
 ### 📐 Mathematics & Information Theory
-- **Group Testing (Pooled Testing):** Probabilistic models, disjunct matrices, combinatorial constructions, fast decoding algorithms (COMP, SCOMP, DD), and noise-resilient architectures.
-- **Information Theory & Coding:** Shannon limits, error-correcting codes, and connections to compressed sensing.
-- **General & foundational mathematics.**
+- Group Testing.
+- Information Theory & Coding.
+- High School Mathematics.
+- Foundational College Mathematics.
+- Popular / Recreational Mathematics.
 
 ### 💻 Computer Science & Technology
-- **Modern C++ (C++11 through C++20/23):** High-performance systems programming, RAII resource management, move semantics, template metaprogramming & concepts, concurrency, and lock-free data structures.
-- **Hardware-Aware Design:** CPU cache locality, zero-cost abstractions, large-scale data streams.
+- C++ Programming (Basic & Advanced).
+- C# Programming (Basic & Advanced).
+- Java Programming (Basic & Advanced).
+- Operating Systems.
+- Computer Networks.
+- Data Structures & Algorithms.
+- Machine Learning.
+- System Architecture.
+- Internet of Things (IoT).
 
 ### ⚛️ Physics
-- General and introductory physics.
+- High school physics.
+- General / introductory college physics.
 
-### 🌿 Beyond the Screen
-- Sharing everyday reflections and journey in life.
-- Reviews of useful tools, books, and places.
+### 🌿 Life & Reflections
+- Sharing personal journeys in life, work, and study.
+- Reviews of useful tools, apps, and places.
 - Thoughts, perspectives, and lifestyle.
 
 ---
