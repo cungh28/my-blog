@@ -21,14 +21,14 @@ To me, programming is not merely about writing code for machines; it is the craf
 
 ## 2. Blog Contents & Roadmap
 
-### 📐 Mathematics & Information Theory
+### Mathematics & Information Theory
 - Group Testing.
 - Information Theory & Coding.
 - High School Mathematics.
 - Foundational College Mathematics.
 - Popular / Recreational Mathematics.
 
-### 💻 Computer Science & Technology
+### Computer Science & Technology
 - C++ Programming (Basic & Advanced).
 - C# Programming (Basic & Advanced).
 - Java Programming (Basic & Advanced).
@@ -39,11 +39,11 @@ To me, programming is not merely about writing code for machines; it is the craf
 - System Architecture.
 - Internet of Things (IoT).
 
-### ⚛️ Physics
+### Physics
 - High school physics.
 - General / introductory college physics.
 
-### 🌿 Life & Reflections
+### Life & Reflections
 - Sharing personal journeys in life, work, and study.
 - Reviews of useful tools, apps, and places.
 - Thoughts, perspectives, and lifestyle.
