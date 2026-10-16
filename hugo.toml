@@ -1,6 +1,6 @@
 baseURL = 'https://blog.cunghuynh.id.vn/'
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = "Cung's Blog"
 theme = 'PaperMod'
 
 defaultContentLanguage = 'en'
@@ -11,9 +11,9 @@ defaultContentLanguageInSubdir = false # Vietnamese in root /, English in /en/
     languageCode = 'vi-vn'
     languageName = 'Tiếng Việt'
     weight = 1
-    title = 'Blog của tôi'
+    title = 'Blog của Cung'
     [languages.vi.params]
-      description = 'Mô tả blog bằng tiếng Việt'
+      description = 'Góc chia sẻ của Cung Huỳnh về Toán học, Lập trình và Cuộc sống'
 
     [languages.vi.menu]
       [[languages.vi.menu.main]]
@@ -52,13 +52,19 @@ defaultContentLanguageInSubdir = false # Vietnamese in root /, English in /en/
         url = "tags/"
         weight = 60
 
+      [[languages.vi.menu.main]]
+        identifier = "about"
+        name = "Giới thiệu"
+        url = "about/"
+        weight = 70
+
   [languages.en]
     languageCode = 'en-us'
     languageName = 'English'
     weight = 2
-    title = 'My Personal Blog'
+    title = "Cung's Blog"
     [languages.en.params]
-      description = 'Blog description in English'
+      description = "Cung Huynh's personal blog on Mathematics, Computer Science, and Life"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
@@ -79,7 +85,14 @@ defaultContentLanguageInSubdir = false # Vietnamese in root /, English in /en/
         url = "tags/"
         weight = 30
 
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "about/"
+        weight = 40
+
 [params]
+  author = "Cung Huỳnh"
   math = true
 
 [markup]
