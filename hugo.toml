@@ -1,15 +1,14 @@
 baseURL = 'https://blog.cunghuynh.id.vn/'
-locale = 'en-us'
-title = "Cung's Blog"
+locale = 'vi-vn'
+title = 'Blog của Cung'
 theme = 'PaperMod'
 
 enableGitInfo = true
+defaultContentLanguage = 'vi'
+defaultContentLanguageInSubdir = false # Vietnamese in root /, English in /en/
 
 [frontmatter]
   lastmod = [':git', 'lastmod', 'date', 'publishDate']
-
-defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = false # Vietnamese in root /, English in /en/
 
 [languages]
   [languages.vi]
