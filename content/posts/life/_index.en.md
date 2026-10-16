@@ -13,9 +13,9 @@ While mathematics brings rigor and algorithms bring logic and structure, everyda
 
 This section is where I chronicle personal reflections, soul-nourishing habits, and humble passions:
 
-1. **Article 1:** [When Technologists Seek Quiet Notes Beyond the Screen](01-nhung-not-lang-ngoai-man-hinh/)
-2. **Article 2:** [The Art of Reading and Pages That Do Not Glow](02-nghe-thuat-doc-sach-giay/)
-3. **Article 3:** [Stoic Philosophy and Serenity in an Unsettled World](03-triet-hoc-khac-ky-va-su-binh-than/)
-4. **Article 4:** [Long-Distance Running and the Silent Inner Dialogue](04-chay-bo-va-cuoc-doi-thoai-noi-tam/)
-5. **Article 5:** [The Flavor of Slowness: Craft Coffee and Quiet Mornings](05-huong-vi-cua-su-cham-rai/)
-6. **Article 6:** [Minimalist Living in a Hyper-Stimulated World](06-song-toi-gian-trong-the-gioi-on-ao/)
+1. **Article 1:** [When Technologists Seek Quiet Notes Beyond the Screen](stillness-beyond-screens/)
+2. **Article 2:** [The Art of Reading and Pages That Do Not Glow](art-of-reading-paper-books/)
+3. **Article 3:** [Stoic Philosophy and Serenity in an Unsettled World](stoicism-and-serenity/)
+4. **Article 4:** [Long-Distance Running and the Silent Inner Dialogue](long-distance-running-inner-dialogue/)
+5. **Article 5:** [The Flavor of Slowness: Craft Coffee and Quiet Mornings](flavor-of-slowness-craft-coffee/)
+6. **Article 6:** [Minimalist Living in a Hyper-Stimulated World](minimalist-living-noisy-world/)

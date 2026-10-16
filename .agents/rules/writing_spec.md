@@ -5,10 +5,14 @@ When writing, generating, editing, or translating blog posts for this repository
 1. **NO EMOJIS OR ICONS:**
    - Never use any emojis or icons (e.g. 📐, 💻, ⚛️, 🌿, 🚀, 💡, 📌, 📝, 🔍, ⚠️, ⭐, 🎯, 🔥, ✨, 🎉, ☕, 🏃, etc.) anywhere in post titles, headers, bullet points, or body content. Maintain a clean, academic, and minimalist tone.
 
-2. **FILE NAMING & EXTENSIONS:**
-   - Vietnamese content: `<slug>.vi.md`
-   - English content: `<slug>.en.md`
-   - Filenames in lowercase kebab-case without Vietnamese diacritics.
+2. **LEAF BUNDLE ARCHITECTURE & SLUGS:**
+   - Each post is its own directory named in English kebab-case (e.g. `stillness-beyond-screens/`).
+   - DO NOT include order prefixes like `01-`, `02-` in directory names or in `slug` fields.
+   - Inside each post bundle:
+     - `index.vi.md` with `slug = "vietnamese-slug-without-numbers"`
+     - `index.en.md` with `slug = "english-slug-without-numbers"`
+     - Associated media assets (images, diagrams) reside in the same bundle.
+   - Section indexes use `_index.vi.md` and `_index.en.md`.
 
 3. **FRONTMATTER (TOML `+++ ... +++`):**
    - Always use TOML format.

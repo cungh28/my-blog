@@ -13,10 +13,10 @@ Nếu toán học mang lại sự chặt chẽ, thuật toán mang lại logic v
 
 Chuyên mục này là nơi tôi ghi lại những quan niệm sống, những thói quen vun đắp tâm hồn và những niềm say mê mộc mạc:
 
-1. **Bài 1:** [Khi người làm kỹ thuật tìm về những nốt lặng ngoài màn hình](01-nhung-not-lang-ngoai-man-hinh/)
-2. **Bài 2:** [Nghệ thuật đọc sách và Những trang giấy không phát sáng](02-nghe-thuat-doc-sach-giay/)
-3. **Bài 3:** [Triết học Khắc kỷ (Stoicism) và Sự bình thản giữa dòng đời biến động](03-triet-hoc-khac-ky-va-su-binh-than/)
-4. **Bài 4:** [Chạy bộ đường trường và Cuộc đối thoại âm thầm với nội tâm](04-chay-bo-va-cuoc-doi-thoai-noi-tam/)
-5. **Bài 5:** [Hương vị của sự chậm rãi: Cà phê thủ công và Những sớm mai tĩnh lặng](05-huong-vi-cua-su-cham-rai/)
-6. **Bài 6:** [Sống tối giản trong một thế giới ngập tràn kích thích](06-song-toi-gian-trong-the-gioi-on-ao/)
+1. **Bài 1:** [Khi người làm kỹ thuật tìm về những nốt lặng ngoài màn hình](nhung-not-lang-ngoai-man-hinh/)
+2. **Bài 2:** [Nghệ thuật đọc sách và Những trang giấy không phát sáng](nghe-thuat-doc-sach-giay/)
+3. **Bài 3:** [Triết học Khắc kỷ (Stoicism) và Sự bình thản giữa dòng đời biến động](triet-hoc-khac-ky-va-su-binh-than/)
+4. **Bài 4:** [Chạy bộ đường trường và Cuộc đối thoại âm thầm với nội tâm](chay-bo-va-cuoc-doi-thoai-noi-tam/)
+5. **Bài 5:** [Hương vị của sự chậm rãi: Cà phê thủ công và Những sớm mai tĩnh lặng](huong-vi-cua-su-cham-rai/)
+6. **Bài 6:** [Sống tối giản trong một thế giới ngập tràn kích thích](song-toi-gian-trong-the-gioi-on-ao/)
 

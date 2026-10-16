@@ -15,10 +15,10 @@ Kể từ cột mốc C++11 cho đến C++20 và C++23, C++ đã trải qua mộ
 
 Chuỗi bài viết này được thiết kế theo lộ trình sư phạm bài bản, kết hợp giải thích bản chất kiến trúc máy tính bên dưới và các mẫu thiết kế (design patterns) hiện đại:
 
-1. **Bài 1:** [Tổng quan Modern C++ và Mô hình Quản lý Bộ nhớ (Stack, Heap & RAII)](01-tong-quan-modern-cpp-va-mo-hinh-bo-nho/)
-2. **Bài 2:** [Move Semantics, Rvalue References và Con trỏ thông minh (Smart Pointers)](02-move-semantics-va-smart-pointers/)
-3. **Bài 3:** [Template Metaprogramming và C++20 Concepts & Constraints](03-templates-va-cpp20-concepts/)
-4. **Bài 4:** [Thư viện chuẩn STL: Containers, Iterators và C++20 Ranges](04-stl-containers-va-cpp20-ranges/)
-5. **Bài 5:** [Lập trình Đa luồng và Xử lý Đồng thời (Concurrency & Multithreading)](05-da-luong-va-concurrency-trong-cpp/)
-6. **Bài 6:** [Tối ưu hóa hiệu năng: Compile-time Evaluation, Zero-cost Abstraction và Tooling](06-toi-uu-hieu-nang-va-advanced-tooling/)
+1. **Bài 1:** [Tổng quan Modern C++ và Mô hình Quản lý Bộ nhớ (Stack, Heap & RAII)](tong-quan-modern-cpp-va-mo-hinh-bo-nho/)
+2. **Bài 2:** [Move Semantics, Rvalue References và Con trỏ thông minh (Smart Pointers)](move-semantics-va-smart-pointers/)
+3. **Bài 3:** [Template Metaprogramming và C++20 Concepts & Constraints](templates-va-cpp20-concepts/)
+4. **Bài 4:** [Thư viện chuẩn STL: Containers, Iterators và C++20 Ranges](stl-containers-va-cpp20-ranges/)
+5. **Bài 5:** [Lập trình Đa luồng và Xử lý Đồng thời (Concurrency & Multithreading)](da-luong-va-concurrency-trong-cpp/)
+6. **Bài 6:** [Tối ưu hóa hiệu năng: Compile-time Evaluation, Zero-cost Abstraction và Tooling](toi-uu-hieu-nang-va-advanced-tooling/)
 

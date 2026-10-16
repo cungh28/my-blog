@@ -18,20 +18,22 @@ Mọi prompt tạo bài viết, dịch thuật (dù sử dụng AI hay viết th
 
 ---
 
-## 2. Quy ước Đặt tên File & Cấu trúc Đa ngôn ngữ (Multilingual)
+## 2. Quy ước Tổ chức Thư mục (Leaf Bundle) & Đặt tên Slug Đa ngôn ngữ
 
-Hệ thống sử dụng cơ chế đa ngôn ngữ của Hugo với hậu tố mã ngôn ngữ:
+Blog áp dụng kiến trúc **Leaf Bundle** chuẩn mực của Hugo để quản lý bài viết và tài nguyên cục bộ:
 
-- **Bài viết Tiếng Việt:** `<slug>.vi.md` (ví dụ: `01-tong-quan-ve-group-testing.vi.md`)
-- **Bài viết Tiếng Anh:** `<slug>.en.md` (ví dụ: `01-introduction-to-group-testing.en.md`)
-- **Quy tắc đặt tên (Slug):**
-  - Viết thường hoàn toàn, không dấu tiếng Việt.
-  - Sử dụng dấu gạch ngang `-` để phân cách các từ (`kebab-case`).
-  - Nếu là bài viết thuộc chuỗi series theo thứ tự, đặt tiền tố số có 2 chữ số: `01-...`, `02-...`.
-- **Cấu trúc thư mục:**
-  - Bài viết toán học: `content/posts/math/<tên-chủ-đề>/`
-  - Bài viết lập trình: `content/posts/programming/<ngôn-ngữ-hoặc-chủ-đề>/`
-  - Bài viết cuộc sống: `content/posts/life/`
+- **Mỗi bài viết là một thư mục riêng (Leaf Bundle):**
+  - Tên thư mục bài viết: Đặt hoàn toàn bằng **Tiếng Anh**, chữ thường, dạng `kebab-case` (ví dụ: `stillness-beyond-screens/`, `overview-dorfman-pooling/`).
+  - **TUYỆT ĐỐI KHÔNG để lộ thứ tự bài viết (như `01-`, `02-`)** trong tên thư mục cũng như trong thuộc tính `slug` (URL), nhằm bảo mật kế hoạch xuất bản và tránh để độc giả đoán trước các đường dẫn chưa công bố.
+- **Bên trong thư mục bài viết gồm:**
+  - `index.vi.md`: Bản bài viết Tiếng Việt. Frontmatter phải chứa `slug = "slug-tieng-viet-khong-dau"` (không có tiền tố số).
+  - `index.en.md`: Bản bài viết Tiếng Anh. Frontmatter phải chứa `slug = "english-slug-keyword"` (không có tiền tố số).
+  - Các tài nguyên dùng riêng cho bài viết: Hình ảnh (`cover.jpg`, `diagram.png`), file đính kèm... nằm trực tiếp cùng thư mục, cho phép chèn bằng đường dẫn tương đối `![Mô tả](diagram.png)`.
+- **Cấu trúc phân cấp tổng thể:**
+  - Bài viết toán học: `content/posts/math/<ten-chu-de>/<post-folder>/`
+  - Bài viết lập trình: `content/posts/programming/<ngon-ngu-hoac-chu-de>/<post-folder>/`
+  - Bài viết cuộc sống: `content/posts/life/<post-folder>/`
+  - Trang mục lục chuyên mục: Sử dụng `_index.vi.md` và `_index.en.md` tại thư mục cha.
   - Trang tĩnh độc lập: `content/about.vi.md`, `content/about.en.md`
 
 ---

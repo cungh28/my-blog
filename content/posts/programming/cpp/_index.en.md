@@ -15,9 +15,9 @@ From the C++11 watershed through C++20 and C++23, C++ has undergone a monumental
 
 This series provides a structured pedagogical curriculum connecting underlying hardware architecture to modern design patterns:
 
-1. **Article 1:** [Modern C++ Overview and Memory Architecture (Stack, Heap & RAII)](01-tong-quan-modern-cpp-va-mo-hinh-bo-nho/)
-2. **Article 2:** [Move Semantics, Rvalue References, and Smart Pointers](02-move-semantics-va-smart-pointers/)
-3. **Article 3:** [Template Metaprogramming and C++20 Concepts & Constraints](03-templates-va-cpp20-concepts/)
-4. **Article 4:** [The Standard Template Library: Containers, Iterators, and C++20 Ranges](04-stl-containers-va-cpp20-ranges/)
-5. **Article 5:** [Multithreading and Concurrency in Modern C++](05-da-luong-va-concurrency-trong-cpp/)
-6. **Article 6:** [Performance Optimization: Compile-Time Evaluation, Zero-Cost Abstractions, and Tooling](06-toi-uu-hieu-nang-va-advanced-tooling/)
+1. **Article 1:** [Modern C++ Overview and Memory Architecture (Stack, Heap & RAII)](modern-cpp-memory-model-raii/)
+2. **Article 2:** [Move Semantics, Rvalue References, and Smart Pointers](move-semantics-smart-pointers/)
+3. **Article 3:** [Template Metaprogramming and C++20 Concepts & Constraints](templates-cpp20-concepts/)
+4. **Article 4:** [The Standard Template Library: Containers, Iterators, and C++20 Ranges](stl-containers-cpp20-ranges/)
+5. **Article 5:** [Multithreading and Concurrency in Modern C++](multithreading-concurrency/)
+6. **Article 6:** [Performance Optimization: Compile-Time Evaluation, Zero-Cost Abstractions, and Tooling](performance-optimization-tooling/)
