@@ -23,16 +23,16 @@ Mọi prompt tạo bài viết, dịch thuật (dù sử dụng AI hay viết th
 Blog áp dụng kiến trúc **Leaf Bundle** chuẩn mực của Hugo để quản lý bài viết và tài nguyên cục bộ:
 
 - **Mỗi bài viết là một thư mục riêng (Leaf Bundle):**
-  - Tên thư mục bài viết: Đặt hoàn toàn bằng **Tiếng Anh**, chữ thường, dạng `kebab-case` (ví dụ: `stillness-beyond-screens/`, `overview-dorfman-pooling/`).
-  - **TUYỆT ĐỐI KHÔNG để lộ thứ tự bài viết (như `01-`, `02-`)** trong tên thư mục cũng như trong thuộc tính `slug` (URL), nhằm bảo mật kế hoạch xuất bản và tránh để độc giả đoán trước các đường dẫn chưa công bố.
+  - **Tên thư mục trên đĩa (Filesystem):** Đặt bằng **Tiếng Anh**, chữ thường, dạng `kebab-case` và **có tiền tố số thứ tự** đối với các bài trong series (ví dụ: `01-stillness-beyond-screens/`, `02-art-of-reading-paper-books/`). Việc đánh số này giúp trình soạn thảo (VS Code / File Explorer) tự động sắp xếp theo đúng trình tự bài viết, vô cùng trực quan và dễ quản lý khi sáng tác.
+  - **Slug trên URL xuất bản:** **TUYỆT ĐỐI KHÔNG chứa số thứ tự (như `01-`, `02-`)** trong thuộc tính `slug` của frontmatter. Nhờ cơ chế ưu tiên `slug` của Hugo, URL xuất bản ra ngoài web sẽ hoàn toàn sạch sẽ (ví dụ: `/posts/life/nhung-not-lang-ngoai-man-hinh/` và `/en/posts/life/stillness-beyond-screens/`), bảo đảm tính thẩm mỹ và tránh để độc giả đoán trước đường dẫn của các bài viết chưa công bố.
 - **Bên trong thư mục bài viết gồm:**
-  - `index.vi.md`: Bản bài viết Tiếng Việt. Frontmatter phải chứa `slug = "slug-tieng-viet-khong-dau"` (không có tiền tố số).
-  - `index.en.md`: Bản bài viết Tiếng Anh. Frontmatter phải chứa `slug = "english-slug-keyword"` (không có tiền tố số).
+  - `index.vi.md`: Bản bài viết Tiếng Việt. Frontmatter phải chứa `slug = "slug-tieng-viet-khong-dau"` (tuyệt đối không có tiền tố số).
+  - `index.en.md`: Bản bài viết Tiếng Anh. Frontmatter phải chứa `slug = "english-slug-keyword"` (tuyệt đối không có tiền tố số).
   - Các tài nguyên dùng riêng cho bài viết: Hình ảnh (`cover.jpg`, `diagram.png`), file đính kèm... nằm trực tiếp cùng thư mục, cho phép chèn bằng đường dẫn tương đối `![Mô tả](diagram.png)`.
 - **Cấu trúc phân cấp tổng thể:**
-  - Bài viết toán học: `content/posts/math/<ten-chu-de>/<post-folder>/`
-  - Bài viết lập trình: `content/posts/programming/<ngon-ngu-hoac-chu-de>/<post-folder>/`
-  - Bài viết cuộc sống: `content/posts/life/<post-folder>/`
+  - Bài viết toán học: `content/posts/math/<ten-chu-de>/<01-post-folder>/`
+  - Bài viết lập trình: `content/posts/programming/<ngon-ngu-hoac-chu-de>/<01-post-folder>/`
+  - Bài viết cuộc sống: `content/posts/life/<01-post-folder>/`
   - Trang mục lục chuyên mục: Sử dụng `_index.vi.md` và `_index.en.md` tại thư mục cha.
   - Trang tĩnh độc lập: `content/about.vi.md`, `content/about.en.md`
 

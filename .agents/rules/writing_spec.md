@@ -6,8 +6,8 @@ When writing, generating, editing, or translating blog posts for this repository
    - Never use any emojis or icons (e.g. 📐, 💻, ⚛️, 🌿, 🚀, 💡, 📌, 📝, 🔍, ⚠️, ⭐, 🎯, 🔥, ✨, 🎉, ☕, 🏃, etc.) anywhere in post titles, headers, bullet points, or body content. Maintain a clean, academic, and minimalist tone.
 
 2. **LEAF BUNDLE ARCHITECTURE & SLUGS:**
-   - Each post is its own directory named in English kebab-case (e.g. `stillness-beyond-screens/`).
-   - DO NOT include order prefixes like `01-`, `02-` in directory names or in `slug` fields.
+   - Each post is its own directory named in English kebab-case, with numerical prefixes for series articles (e.g. `01-stillness-beyond-screens/`, `02-art-of-reading-paper-books/`) to facilitate ordering in IDE/filesystem.
+   - DO NOT include order prefixes (like `01-`, `02-`) in the `slug` frontmatter fields.
    - Inside each post bundle:
      - `index.vi.md` with `slug = "vietnamese-slug-without-numbers"`
      - `index.en.md` with `slug = "english-slug-without-numbers"`
